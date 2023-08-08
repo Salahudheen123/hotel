@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Ysabeau+SC:wght@300&display=swap');
+
+* {
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+nav .logo {
+    border-radius: 100%;
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+nav ul {
+    text-align: right;
+    margin: 0;
+    list-style: none;
+    padding: 50px 0;
+
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+    margin-left: 170px;
+    margin-right: 120px;
+}
+nav ul li a{
+    text-decoration: none;
+color: rgb(200, 219, 187);
+}
+
+nav ul li:nth-child(1),
+nav ul li:nth-child(2)
+ {
+float: left;
+}
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+.slider figure img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+} 
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 6s infinite;
+}
+@keyframes animate
+{
+  0%{left: 0;}
+  25%{left:0}
+  50%{left: -100%;}
+  75%{left: -200%;}
+  100%{left: 0;}
+}
+h1{
+    color: rgb(35, 37, 35);
+    font-size: 100px;
+;    
+}
+p{
+    color:rgb(21, 20, 20);
+    position:static ;
+    margin-top: 100px;
+    text-align: justify;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: rgb(41, 38, 38);
+    margin-top: 30px;
+    font-size: 30px;
+}
+.heading span{
+    font-size: 50px;
+}
+
+.about-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about-image img{
+    margin-left: 80px;
+}
+.about-image p{
+    
+    margin-right: 120px;
+}
+
+
+.contact-color {
+    background-color: rgb(62, 34, 57);
+    height: 460px;
+}
+.contact-color h2{
+    font-size: 70px;
+    margin-bottom: -140px;
+    padding-top:70px;
+   margin-left:120px;
+   color: rgb(104, 97, 108);
+}
+.contact-color h3{
+    margin-left: 1000px;
+    padding-top: 180px;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.contact-color h4{
+    margin-left: 1000px;
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(244, 244, 244);
+}
+button{
+    background-color: black;
+    color: white;
+    margin-left: 150px;
+    padding-left:50px ;
+}
+
+
+.team{
+    align-items: center;
+    text-align: center;
+}
+.team h2{
+    color: rgb(41, 38, 38);
+    margin-top: 30px;
+    font-size: 30px;
+}
+.team span{
+    font-size: 50px;
+    color: rgb(165, 170, 165);
+}
+.about-team{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.about-timage{
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    margin-top: -150px;
+    margin-left: 300px;
+    
+
+}
+.icon{
+    width: 5%;
+    height: 100%;
+    align-items: start;
+    margin-left: 100px;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    margin: 0 10px;
+
+
+}
+.icon :hover{
+    color: rgb(169, 26, 26);
+}
+
+
+
+
+   
